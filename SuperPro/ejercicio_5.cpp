@@ -4,20 +4,20 @@
 int func() {
   int divider = 0;
   int dividend = 0;
-  int m = abs(divider);
+  int divider_abs = abs(divider);
   int i = 0;
 
   std::cin >> dividend;
   std::cin >> divider;
 
   while (1) {
-    if (m + abs(divider) == dividend)
-      return 0;
+    // if (divider_abs + abs(divider) == dividend)
+    //   return 0;
 
-    if (m + abs(divider) > dividend)
+    if (divider_abs + abs(divider) > dividend)
       break;
 
-    m += abs(divider);
+    divider_abs += abs(divider);
     i++;
   }
 
