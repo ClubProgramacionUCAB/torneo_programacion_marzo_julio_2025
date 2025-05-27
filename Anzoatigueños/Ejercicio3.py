@@ -1,4 +1,4 @@
-lista = [2,2,1,1,5,4,4]
+lista = [2,2,6,3,3,1,7,7,1]
 
 def funcion(list):
     for i in range(0, len(list), 1):
@@ -8,5 +8,6 @@ def funcion(list):
                 sum += 1
         if sum == 1:
             return list[i]
-        
+    return -1
+
 print(funcion(lista))
