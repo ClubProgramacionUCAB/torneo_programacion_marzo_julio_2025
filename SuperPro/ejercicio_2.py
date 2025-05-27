@@ -9,10 +9,9 @@ def reverse(x):
 
     num = (("-" if negative else "") + res)
 
-    if str(int(num)) != num:
+    if -pow(2, 31) >= int(num) or int(num) >= pow(2, 31) - 1:
         return 0
     return num
 
 
-# El input aqui pls, no quiten int() :)
 print(reverse(int(input())))
