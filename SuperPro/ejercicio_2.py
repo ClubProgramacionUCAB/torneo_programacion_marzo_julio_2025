@@ -14,4 +14,4 @@ def reverse(x):
     return num
 
 
-print(reverse(int(input())))
+print(int(reverse(int(input()))))
