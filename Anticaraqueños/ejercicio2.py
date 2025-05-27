@@ -10,8 +10,8 @@ def ValidarNumero(n):
     else:
         return True
 def InvertirNumero(n):
-    if n <= -2**31 or n >= 2**31 - 1:
-        return 0
+    # if n <= -2**31 or n >= 2**31 - 1:
+    #   return 0
     if n == 0:
         return n
     positivo = ValidarNumero(n)
@@ -27,5 +27,5 @@ def InvertirNumero(n):
         return x* -1
     return x
 
-n = 326
+n = -1023344000342
 print(InvertirNumero(n))
