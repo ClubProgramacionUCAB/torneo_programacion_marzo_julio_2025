@@ -1,1 +1,1 @@
-# torneo_programacion_marzo_julio_2025
+# TORNEO DE PROGRAMACIÓN MARZO-JULIO 2025✨
