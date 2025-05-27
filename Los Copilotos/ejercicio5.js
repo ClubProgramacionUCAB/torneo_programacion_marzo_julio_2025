@@ -9,7 +9,7 @@ function ejercicio5(dividend, divisor) {
     }
     dividend = Math.abs(dividend);
     divisor = Math.abs(divisor);
-    while (dividend > divisor) {
+    while (dividend >= divisor) {
         dividend = dividend - divisor;
         quotient++;
     }
