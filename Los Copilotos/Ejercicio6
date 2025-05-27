@@ -1,4 +1,4 @@
-function ejercicio3(height) {
+function ejercicio6(height) {
     let left = 0;
     let right = height.length - 1;
 
@@ -18,3 +18,5 @@ function ejercicio3(height) {
     return result;
 }
 
+
+console.log(ejercicio3([1,8,6,2,5,4,8,3,7]));
