@@ -11,10 +11,6 @@ class Solution:
             if(contApa>val):
                 contApa=val
                 valor = list[i]
-        print(contApa)
         print(valor)
-
         
-
-
 Solution.SingleNumber([8,8,8,9,0,0])    
